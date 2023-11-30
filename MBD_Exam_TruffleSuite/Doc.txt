@@ -1,0 +1,67 @@
+1) Demonstrate the process of migrating the smart contract with
+Truffle Develop.
+
+To deploy smart contract, we need to connect blockchain.
+
+we need to create blockchain and intract with it using truffle develop
+
+Steps :
+1. run truffle develop command:
+   truffle develop
+
+Truffle Develop started at http://127.0.0.1:9545/
+
+Accounts:
+(0) 0x65d3f8cedb7a43c06c8b0f6a5e7d60b0b3ad4152
+(1) 0x262401ff15001174dd17acc3089604c91d1bd499
+(2) 0xa0fa520d7b9f9cdac71e0a032c55af475d963fa7
+(3) 0x4d1f22facf15641adec8fe909bf5370b546eadc8
+(4) 0xa96f5cf62b5d3c22c36e492292f0b6f29e8707f2
+(5) 0x7e870266d92f572a296610123cb5a1b124e84b13
+(6) 0xdf8276c533ea30324cb1d6f4cb672e63d82ba7e8
+(7) 0x44e213e45cc6095657b613b009ccf8c52ca37e45
+(8) 0x37595af6b2f1df3d3a143bcb7a5e970ced462600
+(9) 0x6f81fb8ddc3684b078e6d3f0372a36735b03926e
+
+Private Keys:
+(0) 5eace17de26666159a50a877bed8bad73a0487fcdbb75b7c086630411e5cc588
+(1) 2fa378b8582b0c4922986161ffac61fd02a7de1f1f23a18fc8d7bd70466396f6
+(2) 238b39224e684e3d5eb206dac5f032280ed51edad3e711cde6336ec4ae389420
+(3) 951bfbde3511327db03a07eb2a368102f57fa741cbdcec65f328731b886847ee
+(4) e46a558371d246abac6ca67f0ffe8bd18d964ed0e505dcfcae7152dd7da3f3dc
+(5) 3330798c56063fd7284807ea4aaf4563a0983f2be6326055b02439ee05ef1f7b
+(6) aa7b2213db7f49c378a6721252dd8e8ad50d801f3e8fcc7fa4bbdbe7f70d6202
+(7) c6f789e81fa7867b64c4ddcd904b2092e011b943b024cb46a4b2eb066392b466
+(8) e4acf5d0d19436cfd10a0a96ff2d6d5b31f64fc4dd48bb8f70cb396841a2e186
+(9) b01741cd40581126be6c8b74eb683cfc148b9bc6fbd4f47845c6a00374e0bb43
+
+Mnemonic: bulb quote someone erosion fade vacuum note argue aim horse sun hotel
+
+⚠️  Important ⚠️  : This mnemonic was created for you by Truffle. It is not secure.
+Ensure you do not use it on production blockchains, or else you risk losing funds.
+2) Explain the steps involved in interacting with the Smart contract
+using Truffle develop.
+
+truffle(develop)>
+
+2) Explain the steps involved in interacting with the Smart contract
+using Truffle develop.
+intract with the contract using the console in the following ways:
+steps :
+1. first we need to make directory by using command :
+mkdir truffle-pro
+
+and, get into that dirrectory by using command:
+cd truffle-pro
+
+2.create project run :
+truffle unbox metacoin 
+
+3.for compiling contract we need to use command :
+complile
+truffle(develop)> compile
+
+4.Deploy the contract to the blockchain by using command :
+migrate
+truffle(develop)> migrate
+
